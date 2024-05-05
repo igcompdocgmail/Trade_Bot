@@ -34,3 +34,14 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+Each time the application recieves a message from the web-socket, some results of statistical analysis done for the strategy will display.
+Here we can see several lengths of average true range as well as the time intervals at which they were computed:
+```
+         date                       atr_f     atr_s     atr
+69391 2024-05-05 19:55:00+00:00  2.252781  4.029912  2.975095
+69392 2024-05-05 20:00:00+00:00  2.445324  4.013623  2.992267
+69393 2024-05-05 20:05:00+00:00  2.424260  3.980151  2.945676
+69394 2024-05-05 20:15:00+00:00  3.204108  4.027018  3.186949
+69395 2024-05-05 20:20:00+00:00  3.216486  4.011797  3.192596
+```
